@@ -27,10 +27,21 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
+
+    <div id="fb-root"></div>
+    <script  type="text/javascript">(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=823112257781332";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -61,7 +72,6 @@
     <!-- Carousel
     ==================================================-->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
     </div><!-- /.carousel -->
 
 
@@ -134,11 +144,14 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Keep us to date<span class="text-muted"><br>Follow & Like us</span></h2>
+          <h2 class="featurette-heading">Keep up to date<span class="text-muted"><br>Follow & Like us</span></h2>
           <p class="lead">Come back to Synergy on your phone, tablet or laptop to enjoy the same media search</p>
+          <a href="https://twitter.com/SynergyMedia" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @SynergyMedia</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <div class="fb-like" data-href="http://lukem94.github.io/Synergy/" data-width="200px" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="images/iphone.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="images/twitter.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
